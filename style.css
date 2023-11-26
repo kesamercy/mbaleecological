@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #024126;
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -48,19 +51,35 @@ footer {
     color: white;
     padding: 50px;
     height: 80vh;
-    /* Add padding as needed */
-    background: url('rice.png') center/cover no-repeat;
-    /* Set the background image */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('rice.png') center/cover no-repeat;
+
 }
 
 .header-text {
     font-size: 24px;
     padding-top: 10%;
     padding-left: 10%;
-    width: 50%;
-    /* Add additional styling as needed */
+    width: 70%;
+}
+
+.header-text h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
 }
 
 .content-body {
     padding: 0% 10%;
+}
+
+.content-body h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.content-body h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
 }
