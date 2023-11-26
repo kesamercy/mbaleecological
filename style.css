@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #024126;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #024126;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #024126;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+}
+
+.farm-body {
+
+    padding: 2% 10%;
+}
+
+
+.header-container {
+    text-align: left;
+    color: white;
+    padding: 50px;
+    height: 80vh;
+    /* Add padding as needed */
+    background: url('rice.png') center/cover no-repeat;
+    /* Set the background image */
+}
+
+.header-text {
+    font-size: 24px;
+    padding-top: 10%;
+    padding-left: 10%;
+    width: 50%;
+    /* Add additional styling as needed */
+}
+
+.content-body {
+    padding: 0% 10%;
+}
